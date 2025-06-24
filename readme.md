@@ -1,13 +1,12 @@
 
 
-```markdown
 # 🛢️ OilSight — Previsão do Preço do Petróleo com ARIMA & Prophet
 
 **OilSight** é uma aplicação interativa e 100% local que permite visualizar e prever os preços do petróleo tipo **Brent** e **WTI** com modelos de séries temporais como **ARIMA** e **Prophet**.
 
 > 📌 Ideal para portfólio, estudos e demonstração prática de análise preditiva sem depender de APIs pagas ou deploy.
 
----
+
 
 ## 🚀 Demonstração
 
@@ -15,7 +14,7 @@
   <img src="assets/oilsight_preview.png" alt="OilSight Preview" width="700">
 </p>
 
----
+
 
 ## 🎯 Funcionalidades
 
@@ -27,11 +26,10 @@
 ✅ Salvamento local dos modelos treinados (`.pkl`)  
 ✅ Interface simples e responsiva com Streamlit
 
----
+
 
 ## 🏗️ Estrutura do Projeto
 
-```
 
 oil\_sight/
 ├── app.py                  # Interface principal com Streamlit
@@ -46,9 +44,7 @@ oil\_sight/
 │   └── forecast.py        # Modelos ARIMA e Prophet + avaliação
 ├── README.md
 
-````
 
----
 
 ## 📦 Instalação Local
 
@@ -91,7 +87,7 @@ scikit-learn
 streamlit run app.py
 ```
 
----
+
 
 ## 📈 Fonte dos Dados
 
@@ -100,7 +96,7 @@ Os arquivos CSV foram obtidos manualmente em:
 * [Investing.com - Brent Oil](https://www.investing.com/commodities/brent-oil-historical-data)
 * [Investing.com - WTI Crude](https://www.investing.com/commodities/crude-oil-historical-data)
 
----
+
 
 ## 🧪 Modelos Utilizados
 
@@ -120,7 +116,7 @@ Modelo criado pelo Facebook, ideal para séries com tendências sazonais.
 * Facilita decomposição da série
 * Útil para comparações com ARIMA
 
----
+
 
 ## 🧠 Tecnologias Usadas
 
@@ -135,7 +131,7 @@ Modelo criado pelo Facebook, ideal para séries com tendências sazonais.
 | `scikit-learn` | Métricas de erro (MAPE, RMSE)    |
 | `pickle`       | Salvamento local de modelos      |
 
----
+
 
 ## 📚 Como usar
 
@@ -147,7 +143,6 @@ Modelo criado pelo Facebook, ideal para séries com tendências sazonais.
 6. Visualize a previsão no gráfico e na tabela
 7. Veja as métricas de erro (caso ARIMA)
 
----
 
 ## 💡 Ideias Futuras
 
@@ -158,27 +153,26 @@ Modelo criado pelo Facebook, ideal para séries com tendências sazonais.
 * Dashboard com múltiplos ativos financeiros
 * Modo Dark / Light Theme
 
----
 
 ## ✍️ Autor
 
 Desenvolvido por **Pedro Henrique** como projeto pessoal para estudo, aprendizado e portfólio.
 🔗 [LinkedIn](https://linkedin.com/in/seu-usuario)
 
----
+
 
 ## 🧾 Licença
 
 MIT — sinta-se livre para usar, adaptar e divulgar com os devidos créditos.
 
----
+
 
 ## 🌟 Contribuições
 
 Sugestões, melhorias e colaborações são bem-vindas!
 Abra uma issue ou envie um pull request.
 
-```
+
 
 
 
