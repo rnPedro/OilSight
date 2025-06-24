@@ -30,7 +30,7 @@
 
 ## 🏗️ Estrutura do Projeto
 
-
+´´´
 oil\_sight/
 ├── app.py                  # Interface principal com Streamlit
 ├── /data/                 # Arquivos CSV (Brent e WTI)
@@ -43,7 +43,7 @@ oil\_sight/
 │   ├── loader.py          # Carregamento e preparação dos dados
 │   └── forecast.py        # Modelos ARIMA e Prophet + avaliação
 ├── README.md
-
+´´´
 
 
 ## 📦 Instalação Local
@@ -157,20 +157,11 @@ Modelo criado pelo Facebook, ideal para séries com tendências sazonais.
 ## ✍️ Autor
 
 Desenvolvido por **Pedro Henrique** como projeto pessoal para estudo, aprendizado e portfólio.
-🔗 [LinkedIn](https://linkedin.com/in/seu-usuario)
+🔗 [LinkedIn](https://www.linkedin.com/in/pedro-henrique-rossetto-33216b245/)
 
 
 
-## 🧾 Licença
 
-MIT — sinta-se livre para usar, adaptar e divulgar com os devidos créditos.
-
-
-
-## 🌟 Contribuições
-
-Sugestões, melhorias e colaborações são bem-vindas!
-Abra uma issue ou envie um pull request.
 
 
 
