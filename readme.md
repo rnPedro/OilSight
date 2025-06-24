@@ -7,15 +7,6 @@
 > 📌 Ideal para portfólio, estudos e demonstração prática de análise preditiva sem depender de APIs pagas ou deploy.
 
 
-
-## 🚀 Demonstração
-
-<p align="center">
-  <img src="assets/oilsight_preview.png" alt="OilSight Preview" width="700">
-</p>
-
-
-
 ## 🎯 Funcionalidades
 
 ✅ Visualização interativa dos dados históricos  
@@ -30,20 +21,20 @@
 
 ## 🏗️ Estrutura do Projeto
 
-´´´
-oil\_sight/
+```plaintext
+oil_sight/
 ├── app.py                  # Interface principal com Streamlit
-├── /data/                 # Arquivos CSV (Brent e WTI)
+├── data/                   # Arquivos CSV (Brent e WTI)
 │   ├── brent.csv
 │   └── wti.csv
-├── /models/               # Modelos ARIMA salvos com pickle
-│   ├── arima\_brent.pkl
-│   └── arima\_wti.pkl
-├── /utils/
-│   ├── loader.py          # Carregamento e preparação dos dados
-│   └── forecast.py        # Modelos ARIMA e Prophet + avaliação
+├── models/                 # Modelos ARIMA salvos com pickle
+│   ├── arima_brent.pkl
+│   └── arima_wti.pkl
+├── utils/
+│   ├── loader.py           # Carregamento e preparação dos dados
+│   └── forecast.py         # Modelos ARIMA e Prophet + avaliação
 ├── README.md
-´´´
+
 
 
 ## 📦 Instalação Local
