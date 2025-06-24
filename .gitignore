@@ -1,5 +1,45 @@
+# Ambiente virtual
 venv/
 .env/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Dados e modelos
+/data/*.csv
+/models/*.pkl
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos do Streamlit
+.streamlit/config.toml
+.streamlit/*.json
+
+# Arquivos do Prophet
+prophet_cache.json
+
+# IPython/Jupyter
+.ipynb_checkpoints/
+
+# VSCode
 .vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos gerados
+*.pdf
+*.xlsx
+
+# Sistema operacional
+ehthumbs.db
+Desktop.ini
+
+# Histórico de execução (opcional)
+*.history.json
